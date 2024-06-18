@@ -75,22 +75,37 @@
   {
     "id": 7,
     "name": "Featured dataviz Item Name",
+    "assetType": "Dataviz",
+    "category": "Featured",
+    "description": "Short description of the item goes nicely here.",
+    "details": "Those options are already baked in with this model shoot me an email clear blue water but we need distributors to evangelize the new line to local markets.",
+    "image": "/grid.svg",
+    "isFavorite": true,
+    "tags": ["comms", "coverage", "stakeholders"],
+    "businessQuestions": [
+      "This is the content of question 1",
+      "This is the content of question 2",
+      "This is the content of question 3",
+      "This is the content of question 4"
+    ],
+    "metadata": {
+      "used": 2485,
+      "type": "Universal",
+      "pagesNo": 6,
+      "lastUpdated": "07/23/2024"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Featured dataviz Item Name 2",
     "category": "Featured",
     "assetType": "Dataviz",
     "description": "Short description of the item goes nicely here.",
     "isFavorite": false
   },
   {
-    "id": 8,
-    "name": "Featured dataviz Item Name",
-    "category": "Featured",
-    "assetType": "Dataviz",
-    "description": "Short description of the item goes nicely here.",
-    "isFavorite": true
-  },
-  {
     "id": 9,
-    "name": "Featured dataviz Item Name",
+    "name": "Featured dataviz Item Name 3",
     "category": "Featured",
     "assetType": "Dataviz",
     "description": "Short description of the item goes nicely here.",
@@ -98,7 +113,7 @@
   },
   {
     "id": 10,
-    "name": "Featured dataviz Item Name",
+    "name": "Featured dataviz Item Name 4",
     "category": "Featured",
     "assetType": "Dataviz",
     "description": "Short description of the item goes nicely here.",
