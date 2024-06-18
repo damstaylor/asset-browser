@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(248 250 252);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 14px;
+  color: gray;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+p {
+  color: #717171;
+}
+
+span {
+  color: gray;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+button {
+  background-color: rgb(71 85 105);
+  color: #fafafa;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+button:not(:disabled):hover,
+button:disabled {
+  opacity: 0.8;
+}
+
+textarea {
+  padding: 4px;
+}
